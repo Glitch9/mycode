@@ -21,7 +21,7 @@ resource "azurerm_resource_group" "rg" {
 
 # this is now an "input" value 
 variable "loc" {
-  type = string
+  type    = string
   default = "eastus2"
 }
 
